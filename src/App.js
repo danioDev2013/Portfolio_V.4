@@ -1,5 +1,4 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
