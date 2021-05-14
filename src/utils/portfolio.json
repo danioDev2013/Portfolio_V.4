@@ -34,7 +34,7 @@
     {
         "id": 3,
         "name": "Track the Burn",
-        "image": "images/fit.gif",
+        "image": "images/fit.png",
         "description": "A full-stack fitness tracker. Technologies used: Express.js, MongoDB, Mongoose, Node.js, and deployed on Heroku.",
         "live": "https://tracktheburn.herokuapp.com/",
         "gitHub": "https://github.com/dorley1993/Track_the_Burn"
