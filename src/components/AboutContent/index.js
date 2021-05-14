@@ -15,22 +15,22 @@ function About(props) {
                             </div>
                             <div className="col-md-7">
                                 <p className="my-5"> Hi, my name is Danielle Orley. I’m a detail oriented Full-Stack Web Developer, 
-                        who recently earned a certificate in web development from the University of Washington. I want to keep learning and push myself 
-                        to be a better developer. I take pride in my work and the websites I’ve worked on.  Working in the military, 
-                        retail, and quality control, has taught me to stay calm, react quickly, and take initiative. I’m a hard worker and strive for excellence. 
-                        <br /><br />
-                        My focus is mobile-first responsiveness with HTML, CSS, and JavaScript. 
-                        Then I focus on the functionality of the website with Node.js, Express, MySql, and MongoDB. 
-                        I’m always learning and experimenting with different languages and tools, and I never get bored. 
-                        On my home page you can see some of my completed websites. If you want to get ahold fill out the form below or 
-                        email me. </p>
-
-                        <a download href="/" className="res"> Resume </a>
+                                    who recently earned a certificate in web development from the University of Washington. I want to keep learning and push myself 
+                                    to be a better developer. I take pride in my work and the websites I’ve worked on.  Working in the military, 
+                                    retail, and quality control, has taught me to stay calm, react quickly, and take initiative. I’m a hard worker and strive for excellence. 
+                                    <br /><br />
+                                    My focus is mobile-first responsiveness with HTML, CSS, and JavaScript. 
+                                    Then I focus on the functionality of the website with Node.js, Express, MySql, and MongoDB. 
+                                    I’m always learning and experimenting with different languages and tools, and I never get bored. 
+                                    On my home page you can see some of my completed websites. If you want to get ahold fill out the form below or 
+                                     email me. 
+                                </p>
 
                             </div>
                         </div>
                         <div className="container my-5 form-max-width">
-                            <h4 className="text-center">Drop me a line:</h4>
+                            <h4 className="text-center pb-4">Drop me a line:</h4>
+                            
                             <form className="form-horizontal">
                                 <div className="mb-3">
                                     <label for="name" className="form-label">Name:</label>
