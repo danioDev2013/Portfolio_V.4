@@ -16,7 +16,7 @@ function NavBar() {
                             <a className="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item px-4 nav-text">
-                            <a className="nav-link" href="/Work">Portfolio</a>
+                            <a className="nav-link" href="/work">Portfolio</a>
                         </li>
                         <li className="nav-item px-4 nav-text">
                             <a className="nav-link" href="/about">About / Contact</a>

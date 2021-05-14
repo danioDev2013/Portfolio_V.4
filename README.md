@@ -1,5 +1,3 @@
-# Portfolio_V.4
-An updated version of my portfolio using react.
 <h1 align="center"> React Portfolio 👋 </h1> 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -15,7 +13,6 @@ An updated version of my portfolio using react.
 
   * [Description](#Description)
   * [Usage](#Usage)
-  * [Contribute](#Contribute) 
   * [Tech Used](#tech-used)
   * [License](#License)
   * [Questions](#Questions)
@@ -23,9 +20,9 @@ An updated version of my portfolio using react.
 
   ## Usage
 
-  <img src="" width="100%" alt="start"/>
+  <img src="public/images/start.png" width="100%" alt="start"/>
 
-  - Once the employee results load, click on the Name header to sort the table alphabetically from A - Z or Z - A by name. 
+  - Once the site loads, you can scroll down to view a few of my featured projects. Then you can navigate through the site with the Navbar.  
 
   
   ## Tech Used
@@ -40,7 +37,7 @@ An updated version of my portfolio using react.
   Please visit my 
    [GitHub profile](https://github.com/dorley1993/) to check out this and other projects I've created and contributed too.
 
-   Another way to get ahold of me is my email, visit my main dashboard to view my email. 
+   Another way to get ahold of me is my email, to find it visit my main dashboard.
 
   ## License  
 
