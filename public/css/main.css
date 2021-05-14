@@ -1,0 +1,327 @@
+
+/* ----------- */
+/* Universal Rules */
+/* ----------- */
+
+
+body {
+    background-color:#404040;
+    min-height: 1000px;
+}
+
+#background {
+    background-image: url("../images/snow.png");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    padding-bottom: 10rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    font-family: 'Domine', Georgia, serif;
+    font-size: 5em;
+    line-height: 1.5em;
+    color:rgb(161, 126, 190);
+}
+
+h2 {
+    font-family: 'Domine', Georgia, serif;
+    font-size:2em;
+    color: white;
+    margin: 1em;
+}
+
+h3 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 1em;
+}
+
+a {
+    color:#4d7fef;
+    text-decoration: none;
+    transition:.5s;
+
+}
+
+a:hover {
+    color:#1744aa;
+}
+
+ p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size:1em;
+    color: #939393;
+    line-height: 1.5em;
+ }
+
+main {
+    width: 100%;
+}
+
+#me {
+    max-width: 250px;
+    border-radius: 50%;
+    padding: 4%;
+}
+#imgMe {
+    text-align: center;
+    padding-top: 5%;
+}
+.btn-custom {
+    color: pink;
+}
+/* ----------- */
+/* Contact Form */
+/* ----------- */
+
+.form-horizontal {
+    float: left;
+  }
+  .direct-contact-container {
+    max-width: 400px;
+    float: right;
+    margin-top: 5px;
+  }
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    margin-left: -10px;
+    padding-right: 20px;
+  }
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  .contact-text {
+    font: 300 15px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+  .place {
+    margin-left: 39px;
+  }
+  
+  .gmail {
+    margin-left: 30px;
+  }
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: rgb(161, 126, 190);
+    text-decoration: none;
+  }
+  .icons {
+      color: rgb(161, 126, 190);
+  }
+
+
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+  }
+  
+  
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+
+/* ----------- */
+/* Spacing Specific Rules */
+/* ----------- */
+
+/* Minimum Height for intro area */
+.minh500 {
+    min-height: 650px;
+    max-height: 900px;
+}
+
+/* Padding for intro area */
+.intro-pad {
+    padding: 4em 0;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-50 {
+    margin-bottom: 50px;
+}
+
+/* Margin Bottom 50px */
+.bottom-m-100 {
+    margin-bottom: 100px;
+}
+
+.left-right-m-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top-m-100 {
+    margin-top:100px;
+}
+
+.top-m-150 {
+    margin-top:150px;
+}
+
+/* ----------- */
+/* Navigation Specific CSS */
+/* ----------- */
+
+/* Changes to Nav Background*/
+.nav-cust {
+    width: 100%;
+    top:0;
+    background: transparent;
+}
+
+/* Changes to Nav text */
+.nav-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-link {
+    color: rgb(161, 126, 190) !important;
+}
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
+
+
+/* ----------- */
+/* Card Specific Rules */
+/* ----------- */
+
+/* Adjusts corners and adds drop shadow */
+.c-updates {
+    background: #232323;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    color:#ffffff;
+    min-height: 500px;
+}
+
+.c-updates:hover {
+    box-shadow: 0px 0px 20px rgba(255,255,255,.5);
+}
+
+/* Adjust Top Corners of images in cards to match container */
+.card-img-top-adjust {
+    border-top-left-radius: calc(1.5rem - 1px);
+    border-top-right-radius: calc(1.5rem - 1px);
+}
+
+/* Changes for card buttons */
+.viewProject {
+    color: #ffffff;
+    border:none;
+    background-color: rgb(161, 126, 190);
+}
+
+/* Changes for View More Button on homepage */
+.viewMore {
+    background: #232323;
+    color: rgb(161, 126, 190);
+    border: none;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.5);
+}
+
+
+/* Form Width Control */
+.form-max-width {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 99%;
+}
+
+
+/* ----------- */
+/* Footer Specific Rules */
+/* ----------- */
+footer {
+    background-color:#232323;
+    width: 100%;
+    color:#ffffff;
+    margin-top: 150px;
+}
+#connectMe {
+    color: white;
+    font-size: 15px;
+}
+#root > div > div > footer > section.container-fluid.py-2.justify-content-center.contacts-data.text-center > ul {
+    margin: 0px !important;
+}
+.social-icons li{
+    display: inline-block;
+    padding: 0px 3px;
+  }
+      .social-icons a {
+          display: inline-block;
+          text-align: center;
+      }
+      .social-icons {
+          text-align: center;
+          padding: 4px 4px 0px;
+      }
+
+/* Footer Links Hover*/
+footer a:hover {
+    color: rgb(161, 126, 190);
+}
+/* Footer Paragraph */
+footer p {
+    color: gray;
+    font-size:.75em;
+    text-align: center;
+    margin: 0;
+}
+

@@ -1,0 +1,26 @@
+/* These Media queries were added just to adjust bit more space that I could not achieve through bootstrap */
+
+@media screen and (min-width:768px) and (max-width:990px) {
+    .col-adj {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+    .row-adj {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* Small adjustment to H1 spacing for index */
+    .intro-pad {
+        padding: 3em 0;
+    }
+    
+    .row-adj {
+        margin: 2%;
+    }
+
+}
