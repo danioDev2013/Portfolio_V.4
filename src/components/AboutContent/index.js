@@ -61,7 +61,7 @@ function About(props) {
                                 <li className="contact-icon"><a href="https://github.com/dorley1993" target="_blank"><i className="icons fab fa-github-square fa-2x"></i></a></li>
                                 <li><a className="contact-icon" href="https://www.linkedin.com/in/danielle-orley/" target="_blank"><i className="icons fab fa-linkedin fa-2x"></i></a></li> 
                                 <li><a className="contact-icon" href="https://www.instagram.com/rainbowdevmonster/ " target="_blank"><i className="icons fab fa-instagram fa-2x"></i></a></li>
-                                <li><a className="contact-icon" href="/" target="_blank"><i className="icons fas fa-home fa-2x"></i></a></li>
+                                <li><a className="contact-icon" href="/"><i className="icons fas fa-home fa-2x"></i></a></li>
                                 </ul>
                                 <hr></hr>
                             </div>
