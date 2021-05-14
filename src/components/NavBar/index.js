@@ -1,6 +1,8 @@
 import React from "react";
+import { Document } from "react-pdf";
 
 function NavBar() {
+    
 
     return (
         <nav className="navbar navbar-expand-md navbar-light nav-cust">
@@ -19,6 +21,9 @@ function NavBar() {
                         </li>
                         <li className="nav-item px-4 nav-text">
                             <a className="nav-link" href="/about">About / Contact</a>
+                        </li>
+                        <li className="nav-item px-4 nav-text">
+                        <a className="nav-link" href='/resume.pdf' download>Resume</a>
                         </li>
                     </ul>
                 </div>
